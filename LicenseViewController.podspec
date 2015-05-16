@@ -89,7 +89,7 @@ s.source       = { :git => "https://github.com/1int/LicenseViewController.git", 
 
   s.source_files  = "LicenseViewController/*"
 
-  s.public_header_files = "LicenseViewController/LicenseViewController.h"
+  # s.public_header_files = "LicenseViewController/LicenseViewController.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
