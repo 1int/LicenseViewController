@@ -49,7 +49,7 @@ Go to your Localizable.strings file (or create one if you don't have it) and set
     "license.reject" = "Aleneminen";
 
 
-Also, if you don't want to edit the license.md file, you can set the licenseText property of LicenseViewController directly.
-Demo project included.
+Also, if you don't want to edit the license.md file, you can set licenseText property of LicenseViewController directly.
 
+Demo project included.
 Enjoy.
