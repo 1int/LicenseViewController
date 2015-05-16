@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   s.author             = { "Pavel Lint" => "pavel@1int.org" }
   # Or just: s.author    = "Pavel Lint"
   # s.authors            = { "Pavel Lint" => "1int@list.ru" }
-  s.social_media_url   = "http://vk.com/lint"
+  s.social_media_url   = "https://vk.com/lint"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
