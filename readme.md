@@ -45,8 +45,8 @@ Make sure license.md file is copied.
 You can customize Accept/Reject buttons title.
 Go to your Localizable.strings file (or create one if you don't have it) and set the titles there. For example, if you want Finnish:
 
-    "license.accept" = "hyväksyä";
-    "license.reject" = "aleneminen";
+    "license.accept" = "Hyväksyä";
+    "license.reject" = "Aleneminen";
 
 
 Also, if you don't want to edit the license.md file, you can set the licenseText property of LicenseViewController directly.
