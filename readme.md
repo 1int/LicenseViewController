@@ -11,6 +11,7 @@ Using pods:
 
 <code>
     pod 'AttributedMarkdown', :git => 'https://github.com/dreamwieber/AttributedMarkdown.git'
+
     pod 'LicenseViewController', :git => 'https://github.com/1int/LicenseViewController.git'
 </code>
 
