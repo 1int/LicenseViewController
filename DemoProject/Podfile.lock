@@ -1,0 +1,27 @@
+PODS:
+  - AttributedMarkdown (0.9.2)
+  - LicenseViewController (1.0)
+
+DEPENDENCIES:
+  - AttributedMarkdown (from `https://github.com/dreamwieber/AttributedMarkdown.git`)
+  - LicenseViewController (from `https://github.com/1int/LicenseViewController.git`)
+
+EXTERNAL SOURCES:
+  AttributedMarkdown:
+    :git: https://github.com/dreamwieber/AttributedMarkdown.git
+  LicenseViewController:
+    :git: https://github.com/1int/LicenseViewController.git
+
+CHECKOUT OPTIONS:
+  AttributedMarkdown:
+    :commit: 6bf420df77117f519af32a6393520ead4e7848c6
+    :git: https://github.com/dreamwieber/AttributedMarkdown.git
+  LicenseViewController:
+    :commit: e23521130d55af68ab01029a4561aa5aacb16d3a
+    :git: https://github.com/1int/LicenseViewController.git
+
+SPEC CHECKSUMS:
+  AttributedMarkdown: ac5060667280be8cc8ee33a46c73e4ec6b17ca1a
+  LicenseViewController: 92aa6e2dfe47210721ba6eb3c76b7c8540123ec9
+
+COCOAPODS: 0.37.1

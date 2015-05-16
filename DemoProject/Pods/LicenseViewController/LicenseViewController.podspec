@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   s.author             = { "Pavel Lint" => "pavel@1int.org" }
   # Or just: s.author    = "Pavel Lint"
   # s.authors            = { "Pavel Lint" => "1int@list.ru" }
-  s.social_media_url   = "http://vk.com/lint"
+  s.social_media_url   = "vk.com/lint"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source       = { :git => "https://github.com/1int/LicenseViewController.git", :tag=>'1.0' }
+  s.source       = { :git => "https://github.com/1int/LicenseViewController.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ s.source       = { :git => "https://github.com/1int/LicenseViewController.git", 
 
   s.source_files  = "LicenseViewController/*"
 
-  s.public_header_files = "LicenseViewController/LicenseViewController.h"
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

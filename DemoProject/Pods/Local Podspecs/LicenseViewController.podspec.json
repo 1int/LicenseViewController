@@ -1,0 +1,17 @@
+{
+  "name": "LicenseViewController",
+  "version": "1.0",
+  "summary": "A zero configuration view controller to display license & other user agreements",
+  "description": "                        Just include the header and write [myViewController showLicense];\n                        That will present the license controller with the contents of 'license.md' file from main bundle.\n                        Also, for showing license on first launch only use [myViewController showLicenseAtFirstLaunch];\n                        See readme.md for customization instructions.\n",
+  "homepage": "https://github.com/1int/LicenseViewController",
+  "license": "MIT",
+  "authors": {
+    "Pavel Lint": "pavel@1int.org"
+  },
+  "social_media_url": "vk.com/lint",
+  "source": {
+    "git": "https://github.com/1int/LicenseViewController.git",
+    "tag": "1.0"
+  },
+  "source_files": "LicenseViewController/*"
+}
