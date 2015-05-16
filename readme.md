@@ -14,14 +14,17 @@ Using pods:
 
 ## Zero configuration
 To show your license, just use this  code in your controller:
-    #import <LicenseViewController/LicenseViewController.h>
-    
+
+    #import <LicenseViewController/LicenseViewController.h>    
+
     -(IBAction) onButtonClicked:(id)sender
     {
         [self showLicense];
     }
 
 Also, if you want the license to show only once (when user first launches the app), you can do
+
+    #import <LicenseViewController/LicenseViewController.h>  
 
     -(void) viewDidAppear:(BOOL)animated
     {
