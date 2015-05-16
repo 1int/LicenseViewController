@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
                     DESC
 
   s.homepage     = "https://github.com/1int/LicenseViewController"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://pp.vk.me/c621727/v621727525/255f8/HAOZQ0JDUco.jpg"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
