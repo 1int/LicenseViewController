@@ -34,10 +34,10 @@ Also, if you want the license to show only once (when user first launches the ap
 This will only show the license at the app's first launch.
 
 
-The license is read from a resource named 'license.md' in your main bundle.
-Edit this file to set your own license.
+The license is read from a resource named **license.md** in your main bundle.
+Edit this file to set your own license. It's in markdown (as well as this readme). If you are not familiar with markdown, here's the link: http://daringfireball.net/projects/markdown/. 
 
-**DON'T FORGET TO COPY LICENSE.MD RESOURCE**. Click your project, go to Build Phases -> Copy Bundle Resources.
+**don.t forget to copy license.md resource**. Click your project, go to Build Phases -> Copy Bundle Resources.
 Make sure license.md file is copied.
 
 
@@ -47,4 +47,8 @@ Go to your Localizable.strings file (or create one if you don't have it) and set
     "license.accept" = "hyväksyä";
     "license.reject" = "aleneminen";
 
-See the demo project.
+
+Also, if you don't want to edit the license.md file, you can set the licenseText property of LicenseViewController directly.
+Demo project included.
+
+Enjoy.
