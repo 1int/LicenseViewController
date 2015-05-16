@@ -5,7 +5,7 @@ Lol you don't need a license to use code this simple.
 
 
 # Acknowledgements
-This application makes use of the following third party libraries:
+This application makes use of the following third party libraries
 
 
 
