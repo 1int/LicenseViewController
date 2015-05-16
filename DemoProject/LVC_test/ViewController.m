@@ -28,10 +28,16 @@
 }
 
 
-
--(void)viewDidAppear:(BOOL)animated
+-(IBAction) doShowLicense:(id)sender
 {
-     [self showLicense];
+    [self showLicense];
 }
+
+-(IBAction) doShowLicenseOnce:(id)sender
+{
+    [self showLicenseAtFirstLaunch];
+}
+
+
 
 @end

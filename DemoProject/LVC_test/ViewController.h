@@ -11,5 +11,9 @@
 @interface ViewController : UIViewController
 
 
+
+-(IBAction) doShowLicense:(id)sender;
+-(IBAction) doShowLicenseOnce:(id)sender;
+
 @end
 

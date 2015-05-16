@@ -10,11 +10,13 @@
 		B71FC5EF1B07396D005B1460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5EE1B07396D005B1460 /* main.m */; };
 		B71FC5F21B07396D005B1460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5F11B07396D005B1460 /* AppDelegate.m */; };
 		B71FC5F51B07396D005B1460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC5F41B07396D005B1460 /* ViewController.m */; };
-		B71FC5F81B07396D005B1460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5F61B07396D005B1460 /* Main.storyboard */; };
 		B71FC5FA1B07396D005B1460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5F91B07396D005B1460 /* Images.xcassets */; };
-		B71FC5FD1B07396D005B1460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5FB1B07396D005B1460 /* LaunchScreen.xib */; };
 		B71FC6091B07396D005B1460 /* LVC_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B71FC6081B07396D005B1460 /* LVC_testTests.m */; };
 		B71FC6131B073988005B1460 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B71FC6121B073988005B1460 /* Podfile */; };
+		B72199C21B075FB7000617D1 /* license.md in Sources */ = {isa = PBXBuildFile; fileRef = B72199C11B075FB7000617D1 /* license.md */; };
+		B72199C31B076021000617D1 /* license.md in Resources */ = {isa = PBXBuildFile; fileRef = B72199C11B075FB7000617D1 /* license.md */; };
+		B72199C41B076226000617D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5F61B07396D005B1460 /* Main.storyboard */; };
+		B72199C51B076226000617D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71FC5FB1B07396D005B1460 /* LaunchScreen.xib */; };
 		C2BC6E6ADCCBA0B43E1616D0 /* libPods-LVC_test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE555BCE36F61689C4BAA4DB /* libPods-LVC_test.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 		B71FC6071B07396D005B1460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B71FC6081B07396D005B1460 /* LVC_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVC_testTests.m; sourceTree = "<group>"; };
 		B71FC6121B073988005B1460 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B72199C11B075FB7000617D1 /* license.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = license.md; path = LVC_test/license.md; sourceTree = "<group>"; };
 		C03B35D84E306231E5C58246 /* Pods-LVC_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVC_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-LVC_test/Pods-LVC_test.release.xcconfig"; sourceTree = "<group>"; };
 		D70AEC9FE571104249A5B3BA /* Pods-LVC_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LVC_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LVC_test/Pods-LVC_test.debug.xcconfig"; sourceTree = "<group>"; };
 		EE555BCE36F61689C4BAA4DB /* libPods-LVC_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LVC_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +82,7 @@
 		B71FC5E01B07396D005B1460 = {
 			isa = PBXGroup;
 			children = (
+				B72199C11B075FB7000617D1 /* license.md */,
 				B71FC6121B073988005B1460 /* Podfile */,
 				B71FC5EB1B07396D005B1460 /* LVC_test */,
 				B71FC6051B07396D005B1460 /* LVC_testTests */,
@@ -228,8 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71FC5F81B07396D005B1460 /* Main.storyboard in Resources */,
-				B71FC5FD1B07396D005B1460 /* LaunchScreen.xib in Resources */,
+				B72199C41B076226000617D1 /* Main.storyboard in Resources */,
+				B72199C51B076226000617D1 /* LaunchScreen.xib in Resources */,
+				B72199C31B076021000617D1 /* license.md in Resources */,
 				B71FC6131B073988005B1460 /* Podfile in Resources */,
 				B71FC5FA1B07396D005B1460 /* Images.xcassets in Resources */,
 			);
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72199C21B075FB7000617D1 /* license.md in Sources */,
 				B71FC5F51B07396D005B1460 /* ViewController.m in Sources */,
 				B71FC5F21B07396D005B1460 /* AppDelegate.m in Sources */,
 				B71FC5EF1B07396D005B1460 /* main.m in Sources */,
