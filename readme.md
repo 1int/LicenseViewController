@@ -7,8 +7,8 @@ create a new controller, put in the storyboard, etc. I found nothing. So here it
 
 ##Setup
 Using pods:
-    pod 'AttributedMarkdown', :git => 'https://github.com/dreamwieber/AttributedMarkdown.git'
-    pod 'LicenseViewController', :git => 'https://github.com/1int/LicenseViewController.git'
+        pod 'AttributedMarkdown', :git => 'https://github.com/dreamwieber/AttributedMarkdown.git'
+        pod 'LicenseViewController', :git => 'https://github.com/1int/LicenseViewController.git'
 
 
 ## Zero configuration
