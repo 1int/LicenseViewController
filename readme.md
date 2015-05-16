@@ -37,13 +37,14 @@ This will only show the license at the app's first launch.
 The license is read from a resource named **license.md** in your main bundle.
 Edit this file to set your own license. It's in markdown (as well as this readme). If you are not familiar with markdown, here's the link: http://daringfireball.net/projects/markdown/. 
 
-**don.t forget to copy license.md resource**. Click your project, go to Build Phases -> Copy Bundle Resources.
+**Don't forget to copy license.md resource**. Click your project, go to Build Phases -> Copy Bundle Resources.
 Make sure license.md file is copied.
 
 
 ## Customizing
 You can customize Accept/Reject buttons title.
-Go to your Localizable.strings file (or create one if you don't have it) and set the titles there:
+Go to your Localizable.strings file (or create one if you don't have it) and set the titles there. For example, if you want Finnish:
+
     "license.accept" = "hyväksyä";
     "license.reject" = "aleneminen";
 
