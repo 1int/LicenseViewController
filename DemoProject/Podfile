@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'LVC_test' do
+pod 'AttributedMarkdown', :git => 'https://github.com/dreamwieber/AttributedMarkdown.git'
+pod 'LicenseViewController', :git => 'https://github.com/1int/LicenseViewController.git'
+end
+
+target 'LVC_testTests' do
+
+end
+

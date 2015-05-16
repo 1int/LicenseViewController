@@ -1,3 +1,101 @@
+# Acknowledgements
+This application makes use of the following third party libraries:
+
+## AttributedMarkdown
+
+markdown in Cocoa, implemented using PEG grammar
+Copyright (c) 2012 Gregory Wieber & Jim Radford
+Copyright (c) 2011 David Whetstone
+Copyright (c) 2008 John MacFarlane
+
+peg-markdown for Cocoa is released under both the GPL and MIT licenses.
+You may pick the license that best fits your needs.
+
+The GPL
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+The MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+peg-0.1.4 (included for convenience - http://piumarta.com/software/peg/)
+
+Copyright (c) 2007 by Ian Piumarta
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the 'Software'),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, provided that the above copyright notice(s) and this
+permission notice appear in all copies of the Software.  Acknowledgement
+of the use of this Software in supporting documentation would be
+appreciated but is not required.
+
+THE SOFTWARE IS PROVIDED 'AS IS'.  USE ENTIRELY AT YOUR OWN RISK.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+my_getopt (included for convenience - http://www.geocities.com/bsittler/) 
+
+Copyright 1997, 2000, 2001, 2002, 2006, Benjamin Sittler
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+
+## LicenseViewController
+
 #
 #  Be sure to run `pod spec lint LicenseViewController.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -27,7 +125,7 @@ Pod::Spec.new do |s|
                     DESC
 
   s.homepage     = "https://github.com/1int/LicenseViewController"
-  s.screenshots  = "https://pp.vk.me/c621727/v621727525/255f8/HAOZQ0JDUco.jpg"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -54,7 +152,7 @@ Pod::Spec.new do |s|
   s.author             = { "Pavel Lint" => "pavel@1int.org" }
   # Or just: s.author    = "Pavel Lint"
   # s.authors            = { "Pavel Lint" => "1int@list.ru" }
-  s.social_media_url   = "https://vk.com/lint"
+  s.social_media_url   = "vk.com/lint"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -76,7 +174,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source       = { :git => "https://github.com/1int/LicenseViewController.git", :tag=>'1.0' }
+  s.source       = { :git => "https://github.com/1int/LicenseViewController.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +187,7 @@ s.source       = { :git => "https://github.com/1int/LicenseViewController.git", 
 
   s.source_files  = "LicenseViewController/*"
 
-  s.public_header_files = "LicenseViewController/LicenseViewController.h"
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,3 +230,4 @@ s.source       = { :git => "https://github.com/1int/LicenseViewController.git", 
 
 
 end
+Generated by CocoaPods - http://cocoapods.org

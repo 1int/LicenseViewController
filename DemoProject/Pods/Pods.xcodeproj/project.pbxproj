@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B770297BC6EDF6812F4434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CB0ADFB23497D611AF13F6 /* UIKit.framework */; };
+		0D7B56414957B793DB0B9B9A /* LicenseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4845D80BCB18CCDCD1A08BAD /* LicenseViewController.h */; };
+		1A7EB100B4D87A9376F47BFF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F16C4D57F28E5D316DA62B /* CoreText.framework */; };
+		1E63CCB9B64799D24A534E60 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC82C6D937F6A59F8AB5D36 /* platform.h */; };
+		1E692964D00E2928BEC5FD94 /* Pods-LVC_test-AttributedMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C79DE63076DB8AE64D40B93F /* Pods-LVC_test-AttributedMarkdown-dummy.m */; };
+		2B8EDD20CC776492EDF8CF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A010593A721ADD672B7A6A21 /* Foundation.framework */; };
+		2D6FD95443AA1308D110312E /* markdown_output.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F9F8E9FE61679AAAEF38D /* markdown_output.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		379553603CB1663112CBCBEE /* markdown_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = F87439F18E5C4A77F489CA22 /* markdown_lib.h */; };
+		4203ECFEC9D9D0EABD71AB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A010593A721ADD672B7A6A21 /* Foundation.framework */; };
+		5D9D62912407C783116C0AF8 /* LicenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FF430B4DE7B9D19CD7692 /* LicenseViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6CF4E4B4B795C50F0ED78A29 /* markdown_parser.m in Sources */ = {isa = PBXBuildFile; fileRef = D593EA0865BED8F0649298EB /* markdown_parser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		76BE5ABD57A2C386DDD6A400 /* UIViewController+UIViewController_ShowLicense.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E415BF58ED13BD64DD50BE /* UIViewController+UIViewController_ShowLicense.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		811BFAEFF0DDB2B8473A13F6 /* Pods-LVC_test-LicenseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8743D0B0DEF76E0C03A2D9E7 /* Pods-LVC_test-LicenseViewController-dummy.m */; };
+		8E43DC349471E8EB5201DC84 /* markdown_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7A001A1AC834225377CD6 /* markdown_lib.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB9280DC8D592D5FA3C84EE9 /* Pods-LVC_test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4C9202A06D2575C07AA03A /* Pods-LVC_test-dummy.m */; };
+		D9A9A80C2147F16E110BF15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A010593A721ADD672B7A6A21 /* Foundation.framework */; };
+		DA44468A5BB7C8E47066A479 /* markdown_peg.h in Headers */ = {isa = PBXBuildFile; fileRef = B7ECCA88CD169C4E91E53DA0 /* markdown_peg.h */; };
+		E0695261274E13208806C477 /* UIViewController+UIViewController_ShowLicense.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B3961AACF8C29D22816BBD /* UIViewController+UIViewController_ShowLicense.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4202F203D6D40858AF32C30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BD690A255F9A350F8B9E61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 713B3AE74EFCF42D9D1203E3;
+			remoteInfo = "Pods-LVC_test-LicenseViewController";
+		};
+		EE15C5DB90536E902E06570D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BD690A255F9A350F8B9E61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C2ADC42BEC702B5ADC6D2B;
+			remoteInfo = "Pods-LVC_test-AttributedMarkdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CD729DE82B51750E8633B3 /* Pods-LVC_test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LVC_test-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B879EDE7C705A348154786F /* Pods-LVC_test-LicenseViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LVC_test-LicenseViewController-prefix.pch"; sourceTree = "<group>"; };
+		24F16C4D57F28E5D316DA62B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		38B3961AACF8C29D22816BBD /* UIViewController+UIViewController_ShowLicense.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+UIViewController_ShowLicense.h"; path = "LicenseViewController/UIViewController+UIViewController_ShowLicense.h"; sourceTree = "<group>"; };
+		44A6E80B7F0F8AA809FD22FD /* Pods-LVC_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test.debug.xcconfig"; sourceTree = "<group>"; };
+		4845D80BCB18CCDCD1A08BAD /* LicenseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LicenseViewController.h; path = LicenseViewController/LicenseViewController.h; sourceTree = "<group>"; };
+		4939D12FB0E4FD1087B6AD59 /* Pods-LVC_test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LVC_test-resources.sh"; sourceTree = "<group>"; };
+		4CFB665301AF4CD59E2905C9 /* Pods-LVC_test-LicenseViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test-LicenseViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		5A1F9F8E9FE61679AAAEF38D /* markdown_output.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = markdown_output.m; sourceTree = "<group>"; };
+		5E9FF430B4DE7B9D19CD7692 /* LicenseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LicenseViewController.m; path = LicenseViewController/LicenseViewController.m; sourceTree = "<group>"; };
+		659659DA2EE37FD15C768CF8 /* libPods-LVC_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LVC_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75678D34C09CC4F2878CD257 /* Pods-LVC_test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LVC_test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C4C9202A06D2575C07AA03A /* Pods-LVC_test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LVC_test-dummy.m"; sourceTree = "<group>"; };
+		7DD68D8D6D5DD226541F7EC7 /* Pods-LVC_test-AttributedMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LVC_test-AttributedMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		8743D0B0DEF76E0C03A2D9E7 /* Pods-LVC_test-LicenseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LVC_test-LicenseViewController-dummy.m"; sourceTree = "<group>"; };
+		87F7A001A1AC834225377CD6 /* markdown_lib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = markdown_lib.m; sourceTree = "<group>"; };
+		8A86FF4DC99511B88FBA9EE7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B15AE3CAA99243921ACD1F2 /* Pods-LVC_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test.release.xcconfig"; sourceTree = "<group>"; };
+		8F78847DFF3EFE46D3828362 /* Pods-LVC_test-AttributedMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test-AttributedMarkdown.xcconfig"; sourceTree = "<group>"; };
+		95551ACF73AF146CC19EFF69 /* Pods-LVC_test-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LVC_test-environment.h"; sourceTree = "<group>"; };
+		9DC82C6D937F6A59F8AB5D36 /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		A010593A721ADD672B7A6A21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B7ECCA88CD169C4E91E53DA0 /* markdown_peg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = markdown_peg.h; sourceTree = "<group>"; };
+		C511DF6F20DE1317E9BB58B1 /* Pods-LVC_test-LicenseViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test-LicenseViewController.xcconfig"; sourceTree = "<group>"; };
+		C79DE63076DB8AE64D40B93F /* Pods-LVC_test-AttributedMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LVC_test-AttributedMarkdown-dummy.m"; sourceTree = "<group>"; };
+		C98FE05D06DF5467BA604506 /* libPods-LVC_test-AttributedMarkdown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LVC_test-AttributedMarkdown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D593EA0865BED8F0649298EB /* markdown_parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = markdown_parser.m; sourceTree = "<group>"; };
+		D5CB0ADFB23497D611AF13F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDC238270960E3CEFBEDAD1B /* libPods-LVC_test-LicenseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LVC_test-LicenseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E415BF58ED13BD64DD50BE /* UIViewController+UIViewController_ShowLicense.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+UIViewController_ShowLicense.m"; path = "LicenseViewController/UIViewController+UIViewController_ShowLicense.m"; sourceTree = "<group>"; };
+		E5C813A057AB0B01BE6AB708 /* Pods-LVC_test-AttributedMarkdown-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LVC_test-AttributedMarkdown-Private.xcconfig"; sourceTree = "<group>"; };
+		F87439F18E5C4A77F489CA22 /* markdown_lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = markdown_lib.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956BB8370BF08DE960401644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7EB100B4D87A9376F47BFF /* CoreText.framework in Frameworks */,
+				2B8EDD20CC776492EDF8CF9A /* Foundation.framework in Frameworks */,
+				06B770297BC6EDF6812F4434 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66252C5FB246BE92CA0A432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A9A80C2147F16E110BF15F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F875B0BB3D8C7647C5B3A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4203ECFEC9D9D0EABD71AB5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375621BB85FF162C0EC0A999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E9B9CD70CF1A5348E7E1C76 /* AttributedMarkdown */,
+				AAAB8CC7B75D4EAA789A87E6 /* LicenseViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47A701326DEFB2232A89B7D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F78847DFF3EFE46D3828362 /* Pods-LVC_test-AttributedMarkdown.xcconfig */,
+				E5C813A057AB0B01BE6AB708 /* Pods-LVC_test-AttributedMarkdown-Private.xcconfig */,
+				C79DE63076DB8AE64D40B93F /* Pods-LVC_test-AttributedMarkdown-dummy.m */,
+				7DD68D8D6D5DD226541F7EC7 /* Pods-LVC_test-AttributedMarkdown-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-LVC_test-AttributedMarkdown";
+			sourceTree = "<group>";
+		};
+		4E9B9CD70CF1A5348E7E1C76 /* AttributedMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				F87439F18E5C4A77F489CA22 /* markdown_lib.h */,
+				87F7A001A1AC834225377CD6 /* markdown_lib.m */,
+				5A1F9F8E9FE61679AAAEF38D /* markdown_output.m */,
+				D593EA0865BED8F0649298EB /* markdown_parser.m */,
+				B7ECCA88CD169C4E91E53DA0 /* markdown_peg.h */,
+				9DC82C6D937F6A59F8AB5D36 /* platform.h */,
+				47A701326DEFB2232A89B7D9 /* Support Files */,
+			);
+			path = AttributedMarkdown;
+			sourceTree = "<group>";
+		};
+		6074A79C2C305D0833C53BA5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AFDA34F72FFA87A64EC341 /* Pods-LVC_test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		766C0F0F79E3B01D25B30E91 = {
+			isa = PBXGroup;
+			children = (
+				8A86FF4DC99511B88FBA9EE7 /* Podfile */,
+				900255E756AC074C54219394 /* Frameworks */,
+				375621BB85FF162C0EC0A999 /* Pods */,
+				F99AFFDF7AFBA7ADCA407CFE /* Products */,
+				6074A79C2C305D0833C53BA5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		900255E756AC074C54219394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2C1D1222AFAD318B714B109 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94AFDA34F72FFA87A64EC341 /* Pods-LVC_test */ = {
+			isa = PBXGroup;
+			children = (
+				75678D34C09CC4F2878CD257 /* Pods-LVC_test-acknowledgements.markdown */,
+				09CD729DE82B51750E8633B3 /* Pods-LVC_test-acknowledgements.plist */,
+				7C4C9202A06D2575C07AA03A /* Pods-LVC_test-dummy.m */,
+				95551ACF73AF146CC19EFF69 /* Pods-LVC_test-environment.h */,
+				4939D12FB0E4FD1087B6AD59 /* Pods-LVC_test-resources.sh */,
+				44A6E80B7F0F8AA809FD22FD /* Pods-LVC_test.debug.xcconfig */,
+				8B15AE3CAA99243921ACD1F2 /* Pods-LVC_test.release.xcconfig */,
+			);
+			name = "Pods-LVC_test";
+			path = "Target Support Files/Pods-LVC_test";
+			sourceTree = "<group>";
+		};
+		9650AADF3ABB45FB52622CA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C511DF6F20DE1317E9BB58B1 /* Pods-LVC_test-LicenseViewController.xcconfig */,
+				4CFB665301AF4CD59E2905C9 /* Pods-LVC_test-LicenseViewController-Private.xcconfig */,
+				8743D0B0DEF76E0C03A2D9E7 /* Pods-LVC_test-LicenseViewController-dummy.m */,
+				0B879EDE7C705A348154786F /* Pods-LVC_test-LicenseViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-LVC_test-LicenseViewController";
+			sourceTree = "<group>";
+		};
+		AAAB8CC7B75D4EAA789A87E6 /* LicenseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4845D80BCB18CCDCD1A08BAD /* LicenseViewController.h */,
+				5E9FF430B4DE7B9D19CD7692 /* LicenseViewController.m */,
+				38B3961AACF8C29D22816BBD /* UIViewController+UIViewController_ShowLicense.h */,
+				E1E415BF58ED13BD64DD50BE /* UIViewController+UIViewController_ShowLicense.m */,
+				9650AADF3ABB45FB52622CA2 /* Support Files */,
+			);
+			path = LicenseViewController;
+			sourceTree = "<group>";
+		};
+		B2C1D1222AFAD318B714B109 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24F16C4D57F28E5D316DA62B /* CoreText.framework */,
+				A010593A721ADD672B7A6A21 /* Foundation.framework */,
+				D5CB0ADFB23497D611AF13F6 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F99AFFDF7AFBA7ADCA407CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659659DA2EE37FD15C768CF8 /* libPods-LVC_test.a */,
+				C98FE05D06DF5467BA604506 /* libPods-LVC_test-AttributedMarkdown.a */,
+				DDC238270960E3CEFBEDAD1B /* libPods-LVC_test-LicenseViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D93D3EE48ED8C6F586F70B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379553603CB1663112CBCBEE /* markdown_lib.h in Headers */,
+				DA44468A5BB7C8E47066A479 /* markdown_peg.h in Headers */,
+				1E63CCB9B64799D24A534E60 /* platform.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C6EF58F10288B685361A397 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7B56414957B793DB0B9B9A /* LicenseViewController.h in Headers */,
+				E0695261274E13208806C477 /* UIViewController+UIViewController_ShowLicense.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10C2ADC42BEC702B5ADC6D2B /* Pods-LVC_test-AttributedMarkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF6C1CA504B2CE911AAFB8E /* Build configuration list for PBXNativeTarget "Pods-LVC_test-AttributedMarkdown" */;
+			buildPhases = (
+				1B9911995B59155A41A201C8 /* Sources */,
+				956BB8370BF08DE960401644 /* Frameworks */,
+				1D93D3EE48ED8C6F586F70B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LVC_test-AttributedMarkdown";
+			productName = "Pods-LVC_test-AttributedMarkdown";
+			productReference = C98FE05D06DF5467BA604506 /* libPods-LVC_test-AttributedMarkdown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		713B3AE74EFCF42D9D1203E3 /* Pods-LVC_test-LicenseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA23AFED8E56F755D5582C29 /* Build configuration list for PBXNativeTarget "Pods-LVC_test-LicenseViewController" */;
+			buildPhases = (
+				7FFCC6FDAE8B1A6C891CDE00 /* Sources */,
+				D66252C5FB246BE92CA0A432 /* Frameworks */,
+				2C6EF58F10288B685361A397 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LVC_test-LicenseViewController";
+			productName = "Pods-LVC_test-LicenseViewController";
+			productReference = DDC238270960E3CEFBEDAD1B /* libPods-LVC_test-LicenseViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E09EF93E485D95343330443C /* Pods-LVC_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CEC8C728060BAAE6A6012E /* Build configuration list for PBXNativeTarget "Pods-LVC_test" */;
+			buildPhases = (
+				69F6DE029E857BFB64A4478D /* Sources */,
+				F875B0BB3D8C7647C5B3A669 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B34642DBD97562DE4586D4 /* PBXTargetDependency */,
+				8C7DD14007FB9DC41CCDCF3B /* PBXTargetDependency */,
+			);
+			name = "Pods-LVC_test";
+			productName = "Pods-LVC_test";
+			productReference = 659659DA2EE37FD15C768CF8 /* libPods-LVC_test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BD690A255F9A350F8B9E61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 37A7E8A0FCA328AACFBADF8C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 766C0F0F79E3B01D25B30E91;
+			productRefGroup = F99AFFDF7AFBA7ADCA407CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09EF93E485D95343330443C /* Pods-LVC_test */,
+				10C2ADC42BEC702B5ADC6D2B /* Pods-LVC_test-AttributedMarkdown */,
+				713B3AE74EFCF42D9D1203E3 /* Pods-LVC_test-LicenseViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9911995B59155A41A201C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E692964D00E2928BEC5FD94 /* Pods-LVC_test-AttributedMarkdown-dummy.m in Sources */,
+				8E43DC349471E8EB5201DC84 /* markdown_lib.m in Sources */,
+				2D6FD95443AA1308D110312E /* markdown_output.m in Sources */,
+				6CF4E4B4B795C50F0ED78A29 /* markdown_parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F6DE029E857BFB64A4478D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9280DC8D592D5FA3C84EE9 /* Pods-LVC_test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFCC6FDAE8B1A6C891CDE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9D62912407C783116C0AF8 /* LicenseViewController.m in Sources */,
+				811BFAEFF0DDB2B8473A13F6 /* Pods-LVC_test-LicenseViewController-dummy.m in Sources */,
+				76BE5ABD57A2C386DDD6A400 /* UIViewController+UIViewController_ShowLicense.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B34642DBD97562DE4586D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LVC_test-AttributedMarkdown";
+			target = 10C2ADC42BEC702B5ADC6D2B /* Pods-LVC_test-AttributedMarkdown */;
+			targetProxy = EE15C5DB90536E902E06570D /* PBXContainerItemProxy */;
+		};
+		8C7DD14007FB9DC41CCDCF3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LVC_test-LicenseViewController";
+			target = 713B3AE74EFCF42D9D1203E3 /* Pods-LVC_test-LicenseViewController */;
+			targetProxy = 4202F203D6D40858AF32C30E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A0DCBD6049BA08BDE515C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFB665301AF4CD59E2905C9 /* Pods-LVC_test-LicenseViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LVC_test-LicenseViewController/Pods-LVC_test-LicenseViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5184FFD06B58EB642112B024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C66B302FF2E7E60840CA193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A6E80B7F0F8AA809FD22FD /* Pods-LVC_test.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9EB22479F358916234E2FEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C813A057AB0B01BE6AB708 /* Pods-LVC_test-AttributedMarkdown-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LVC_test-AttributedMarkdown/Pods-LVC_test-AttributedMarkdown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B505B8A66EB3C9AECC7D4BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFB665301AF4CD59E2905C9 /* Pods-LVC_test-LicenseViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LVC_test-LicenseViewController/Pods-LVC_test-LicenseViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B6E422F0711A1442BFC95A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B15AE3CAA99243921ACD1F2 /* Pods-LVC_test.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD7B2BFA900E8CD4C955706F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C813A057AB0B01BE6AB708 /* Pods-LVC_test-AttributedMarkdown-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LVC_test-AttributedMarkdown/Pods-LVC_test-AttributedMarkdown-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8CF427D06C573299BB400C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A7E8A0FCA328AACFBADF8C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CF427D06C573299BB400C6 /* Debug */,
+				5184FFD06B58EB642112B024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CEC8C728060BAAE6A6012E /* Build configuration list for PBXNativeTarget "Pods-LVC_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66B302FF2E7E60840CA193 /* Debug */,
+				B6E422F0711A1442BFC95A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA23AFED8E56F755D5582C29 /* Build configuration list for PBXNativeTarget "Pods-LVC_test-LicenseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505B8A66EB3C9AECC7D4BAF /* Debug */,
+				3A0DCBD6049BA08BDE515C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF6C1CA504B2CE911AAFB8E /* Build configuration list for PBXNativeTarget "Pods-LVC_test-AttributedMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB22479F358916234E2FEBC /* Debug */,
+				DD7B2BFA900E8CD4C955706F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BD690A255F9A350F8B9E61A /* Project object */;
+}
