@@ -1,4 +1,4 @@
-# LicenceViewController readme
+# LicenseViewController readme
 
 ## Abstract
 So, once in a while you need to do the same thing in your iOS apps: show a license agreement. 
